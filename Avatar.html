@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic AI Chat</title>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #1d1d1d, #252525);
+            color: #8ec07c;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .header {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .model {
+            text-align: center;
+        }
+
+        .model-name {
+            color: #3498db;
+            cursor: pointer;
+        }
+
+        .model-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        .start-button {
+            background-color: #3498db;
+            color: #1d1d1d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Select Your Model</h2>
+        <hr>
+    </div>
+    <div class="model">
+        <img src="kavya.jpg" alt="Kavya" class="model-img">
+        <p class="model-name" onclick="window.location.href='chat1.html'">Kavya</p>
+        <button class="start-button" onclick="window.location.href='chat1.html'">CLICK TO START KAVYA MODEL</button>
+    </div>
+</body>
+</html>
