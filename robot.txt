@@ -2,4 +2,3 @@ User-agent: *
 Disallow: /chat1.html       # Disallow all other paths
 Allow: /index.html
 Allow: /about.html
-Allow: /
