@@ -15,12 +15,17 @@
 <url>
   <loc>https://cyzenix.github.io/cyzenix/about.html</loc>
   <lastmod>2023-11-27T11:56:10+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://cyzenix.github.io/cyzenix/Avatar.html</loc>
   <lastmod>2023-11-27T11:56:10+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cyzenix.github.io/cyzenix/More_about_us.html</loc>
+  <lastmod>2023-11-27T11:56:10+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 
 
